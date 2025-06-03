@@ -9,7 +9,7 @@ function EntryList() {
       location: "Lead Vocals",
       googleMapsLink: "mailto:sarah.mitchell@church.org",
       dates: "Available Sundays",
-      imageUrl: "https://placehold.co/200x300/4F46E5/FFFFFF?text=Vocals"
+      imageUrl: "https://placehold.co/1920x1080/4F46E5/FFFFFF?text=Vocals"
     },
     { 
       id: 2, 
@@ -18,7 +18,7 @@ function EntryList() {
       location: "Guitar",
       googleMapsLink: "mailto:marcus.johnson@church.org",
       dates: "Available Weekends",
-      imageUrl: "https://placehold.co/200x300/EC4899/FFFFFF?text=Guitar"
+      imageUrl: "https://placehold.co/1920x1080/EC4899/FFFFFF?text=Guitar"
     },
     { 
       id: 3, 
@@ -27,7 +27,7 @@ function EntryList() {
       location: "Drums",
       googleMapsLink: "mailto:david.chen@church.org",
       dates: "Available Most Sundays",
-      imageUrl: "https://placehold.co/200x300/10B981/FFFFFF?text=Drums"
+      imageUrl: "https://placehold.co/1920x1080/10B981/FFFFFF?text=Drums"
     },
     { 
       id: 4, 
@@ -36,7 +36,7 @@ function EntryList() {
       location: "Piano/Keys",
       googleMapsLink: "mailto:rachel.thompson@church.org",
       dates: "Available Bi-weekly",
-      imageUrl: "https://placehold.co/200x300/F59E0B/FFFFFF?text=Piano"
+      imageUrl: "https://placehold.co/1920x1080/F59E0B/FFFFFF?text=Piano"
     },
     { 
       id: 5, 
@@ -45,7 +45,7 @@ function EntryList() {
       location: "Bass Guitar",
       googleMapsLink: "mailto:emmanuel.rodriguez@church.org",
       dates: "Available Most Weekends",
-      imageUrl: "https://placehold.co/200x300/EF4444/FFFFFF?text=Bass"
+      imageUrl: "https://placehold.co/1920x1080/EF4444/FFFFFF?text=Bass"
     }
   ];
 

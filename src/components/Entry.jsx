@@ -1,10 +1,12 @@
 function Entry({ title, content, location, googleMapsLink, dates, imageUrl }) {
   return (
-    <article className="flex-shrink-0 bg-gray-100 text-gray-400 w-full flex justify-center items-center gap-8 p-8">
+    <article className="flex-shrink-0 bg-gray-100 text-gray-400 w-full flex flex-wrap justify-center items-center gap-8 p-8 rounded-lg">
+      
       <div>
-        <img className="rounded-md" src={imageUrl || "https://placehold.co/200x300"} alt="Entry image" />
+        <img className="rounded-md aspect-video hover:scale-105 hover:rotate-2 transition-all" src={imageUrl || "https://placehold.co/400x400"} alt="Entry image" />
       </div>
-      <div className="flex flex-col gap-4 w-4/5">
+
+      <div className="flex flex-col gap-4 w-full">
         <div className="text-gray-400">
           <span className="pr-2">{location}</span> 
           
