@@ -8,6 +8,7 @@ import EntryList from './components/EntryList.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Nav />
+    {/* CATEGORIES */}
     <EntryList />
   </StrictMode>,
 )
