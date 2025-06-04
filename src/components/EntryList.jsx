@@ -50,10 +50,10 @@ function EntryList() {
   }
 
   return (
-    <div className="w-full">
+    <div className="w-full p-4">
       {/* Container with horizontal scroll */}
       <div className="overflow-x-auto scrollbar-hide">
-        <div className="flex flex-col gap-4 pb-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 pb-4">
           {entries.map(({id, title, content, location, googleMapsLink, dates, imageUrl}) => (
             <Entry 
               key={id}
