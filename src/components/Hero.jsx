@@ -6,10 +6,10 @@ function Hero() {
           {/* Main Headline */}
           <div className="space-y-4">
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 leading-tight">
-              Connect Your 
-              <span className="text-blue-600"> Calling </span>
+              Muscians/Worship Leaders! Connect with 
+              <span className="text-blue-600"> Local </span>
               with Your 
-              <span className="text-purple-600"> Community</span>
+              <span className="text-purple-600"> Churches</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
               The premier platform connecting talented worship musicians with churches seeking to enrich their ministry through music
